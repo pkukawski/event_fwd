@@ -1,0 +1,3 @@
+# event_fwd
+
+Small project that accept TCP connection and is sending received data to the Kafka topic...
