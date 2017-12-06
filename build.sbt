@@ -5,8 +5,13 @@ version := "1.0.0"
 scalaVersion := "2.12.4"
 
 libraryDependencies ++= Seq(
-  "com.typesafe.akka" %% "akka-actor" % "2.5.6",
-  "com.typesafe.akka" %% "akka-stream" % "2.5.6",
+  "com.typesafe.akka" %% "akka-actor" % "2.5.7",
+  "com.typesafe.akka" %% "akka-stream" % "2.5.7",
+  "com.typesafe.akka" %% "akka-cluster" % "2.5.7",
+  "com.typesafe.akka" %% "akka-cluster-tools" % "2.5.7",
+  "com.typesafe.akka" %% "akka-distributed-data" % "2.5.7",
+  "com.typesafe.akka" %% "akka-http" % "10.0.10",
+  "com.typesafe.akka" %% "akka-http-spray-json" % "10.0.10",
    "com.typesafe.akka" %% "akka-stream-kafka" % "0.17",
   "org.scalatest" %% "scalatest" % "3.0.1" % "test"
 )
